@@ -1,0 +1,12 @@
+###dataset
+input_data_root: "./output/2-texture_analysis/1-texture_feature/image_whole.csv"
+
+output_data_root1: "./output/2-texture_analysis/2-Machine_Learning/XGboost/"
+output_data_root2: "./output/2-texture_analysis/2-Machine_Learning/random_forest/"
+output_data_root3: "./output/2-texture_analysis/2-Machine_Learning/lightgbm/"
+
+###training
+objective: "binary:logistic"
+num_boost_round: 1000
+early_stopping_rounds: 400
+learning_rate: 0.01

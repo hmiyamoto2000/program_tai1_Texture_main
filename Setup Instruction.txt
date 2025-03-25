@@ -1,0 +1,11 @@
+1. Copy the repository from github
+2. Open the iTerm, Terminal or anaconda terminal
+3. Set "program_tai3" as the current directory.
+4. conda create -n program_tai python=3.7 
+5. conda activate program_tai 
+6. pip install -r requirements.txt (Install python libraries all at once)
+
+It is also possible to implement on python3.10 (There will be libraries and modules that are partially newly imported)
+
+
+

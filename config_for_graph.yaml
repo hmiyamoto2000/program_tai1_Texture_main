@@ -1,0 +1,5 @@
+input_data_root1: "./output/2-texture_analysis/2-Machine_Learning/XGboost/Important_gain.csv"
+input_data_root2: "./output/2-texture_analysis/2-Machine_Learning/random_forest/Important_feature.csv"
+input_data_root3: "./output/2-texture_analysis/2-Machine_Learning/lightgbm/Important_gain.csv"
+
+output_data_root: "./output/2-texture_analysis/3-graph/"
